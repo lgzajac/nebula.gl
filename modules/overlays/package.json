@@ -54,8 +54,8 @@
     "supercluster": "^6.0.1"
   },
   "peerDependencies": {
-    "react": "0.14.x - 16.x",
-    "react-dom": "0.14.x - 16.x"
+    "react": "0.14.x - 17.x",
+    "react-dom": "0.14.x - 17.x"
   },
   "gitHead": "4eb929f50b89ea745cb92d7ba3d17df025a962e4"
 }
