@@ -26,7 +26,7 @@ export default class HtmlTooltipOverlay extends HtmlOverlay {
     this.state = { visible: false, pickingInfo: null };
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.context.nebula.queryObjectEvents.on('pick', ({ event, pickingInfo }) => {
       if (this.timeoutID !== null) {
         window.clearTimeout(this.timeoutID);
